@@ -1,75 +1,44 @@
-# Nuxt Minimal Starter
+Nuxt 3 Unsplash Photo Gallery
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A Nuxt 3 project that fetches and displays photos from the Unsplash API with a responsive grid layout, styled using SCSS.
 
-## Setup
+🚀 Features
 
-Make sure to install dependencies:
+Nuxt 3 Framework for SSR & performance.
 
-```bash
-# npm
+SCSS for styling with responsive grid layout.
+
+Unsplash API Integration for fetching images dynamically.
+
+Vue Composition API  for cleaner code.
+
+🛠 Installation
+
+Clone the repository
+
+git clone this project
+
+cd [project-name]
+
+
 npm install
 
-# pnpm
-pnpm install
+Create a .env file and add your Unsplash API key:
 
-# yarn
-yarn install
+UNSPLASH_ACCESS_KEY=your_access_key_here
 
-# bun
-bun install
-```
+Run the development server
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
 
-# pnpm
-pnpm dev
+Open http://localhost:3000 in your browser.
 
-# yarn
-yarn dev
+⚙️ Configuration
 
-# bun
-bun run dev
-```
+Using the Unsplash API
 
-## Production
+This project fetches images using the Unsplash API. Make sure to:
 
-Build the application for production:
+Sign up at Unsplash Developers and create an app.
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Copy your Access Key and add it to .env.
